@@ -16,6 +16,9 @@ parquet-tools = "^0.2.16"
 apache-airflow-providers-postgres = "^5.10.2"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
